@@ -1,0 +1,100 @@
+html *{
+    color: white!important;
+    background: black;
+}
+
+h2{
+    background: grey!important;
+}
+
+#qty-buttons * {
+    background: grey;
+}
+
+.push-rgt.cf *{
+    background:grey;
+}
+
+.btn {
+    background:black!important;
+}
+
+
+
+
+
+/*
+
+.weavy-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 0;
+   
+}
+
+    .weavy-nav a {
+        background: #5a5a5a;
+        border: 1px solid #3b3b3b;
+        color: #fff !important;
+        border-radius: 2px;
+        padding: 4px 12px;
+        text-decoration: none;
+    }
+
+    .weavy-nav .active a {
+        background: #63904a;
+        border-color: #4c7833;
+    }
+
+*/
+
+
+
+        /*
+.weavy-nav div:first-of-type {
+    width: 24px;
+    height: 24px;
+}
+
+.weavy-nav svg {
+    fill: currentColor;
+}
+
+.weavy-nav.nh-active, .weavy-nav.nh-active div {
+    color: #48a4f4 !important;
+}
+
+
+.weavy-nav-file {
+    color: #69cb36;
+}
+
+    .weavy-nav-file.nh-active {
+        color: #2196f3;
+    }
+
+.weavy-nav-posts {
+    color: #fbce49;
+}
+
+    .weavy-nav-posts.nh-active {
+        color: #2196f3;
+    }
+
+.weavy-stage {
+    width: 100%;
+    height: 500px;
+    display: none;
+}
+
+.weavy-btn {
+    
+}
+
+
+.sidemenu-collapsed {
+
+}
+
+*/

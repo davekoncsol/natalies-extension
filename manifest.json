@@ -1,0 +1,32 @@
+﻿{
+  "name": "Natalie's Extension",
+  "description": "So certain things are easy on the eyes ;)",
+  "version": "0.1",
+    "icons": {
+        "16": "images/icon-16.png",
+        "48": "images/icon-48.png",
+        "128": "images/icon-128.png"
+    },
+    "permissions": [
+        "https://app.radprimer.com/*",
+        "declarativeContent",
+        "webRequest",
+        "webRequestBlocking"
+    ],
+  "background": {
+    "scripts": [ "background.js" , "hot-reload.js"],
+    "persistent": true
+  },
+  "content_scripts": [
+    {
+        "matches": [
+            "https://app.radprimer.com/*",
+            "http://app.radprimer.com/*"
+        ], 
+      "js": [ "jsrsasign-all-min.js", "weavy.bundle.js", "enabler.js" ],
+      "css": [ "enabler.css" ],
+      "run_at": "document_start"
+    }
+  ],
+  "manifest_version": 2
+}
